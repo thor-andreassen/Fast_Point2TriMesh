@@ -1,4 +1,7 @@
 # Fast_Point2TriMesh
+
+![](https://github.com/thor-andreassen/Fast_Point2TriMesh/blob/main/fastPoint2TriMesh_Image.png)
+
 Determine the nearest point between an abitrary point in space and a given triangulated surface
 This code takes in a triangulated surface of faces and nodes/vertices such as those from an STL file. As well as, a list of arbitrary points in space
 and determines the nearest projection point and the distance to the surface for every point.
