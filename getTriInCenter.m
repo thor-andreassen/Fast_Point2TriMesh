@@ -1,4 +1,5 @@
 function incenter=getTriInCenter(pts)
+% determine the incenter of a triangle
     A=pts(1,:);
     B=pts(2,:);
     C=pts(3,:);

@@ -34,7 +34,7 @@ toc
 
 %% plot test data
 figure()
-patch('Faces',faces,'Vertices',nodes,'FaceColor','r','FaceAlpha',.5,'EdgeAlpha',.8);
+patch('Faces',faces,'Vertices',nodes,'FaceColor','r','FaceAlpha',.75,'EdgeAlpha',.2);
 hold on
 nearest_direction=project_pts-pts;
 scatter3(pts(:,1),pts(:,2),pts(:,3),'bx');
@@ -42,3 +42,4 @@ quiver3(pts(:,1),pts(:,2),pts(:,3),nearest_direction(:,1),nearest_direction(:,2)
 
 
 legend({'Object','Points','Direction to Surface'})
+view([1,1,1]);
